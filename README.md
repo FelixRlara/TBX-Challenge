@@ -184,11 +184,6 @@ docker-compose up --build
 
 ---
 
-## 📄 License
-
-This project was developed as part of the TBX technical challenge.
-
----
 
 ## 👨‍💻 Author
 
