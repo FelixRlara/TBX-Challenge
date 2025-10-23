@@ -1,0 +1,15 @@
+{
+  "extends": ["standard"],
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2],
+    "no-trailing-spaces": "off",
+    "handle-callback-err": "off"
+  }
+}
