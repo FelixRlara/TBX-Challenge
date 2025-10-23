@@ -13,7 +13,6 @@ function FileFilter ({ selectedFile, searchText, onFilterChange, onSearchChange 
     }
   }, [dispatch, filesList.length])
 
-  // Ordenamiento natural usando localeCompare
   const sortedFilesList = [...filesList].sort((a, b) => 
     a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
   )

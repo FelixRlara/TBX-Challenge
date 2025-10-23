@@ -1,11 +1,8 @@
 const axios = require('axios')
 
-// Configuración del API externo de TBX
 const API_BASE_URL = 'https://echo-serv.tbxnet.com/v1/secret'
 const API_KEY = 'Bearer aSuperSecretKey'
 
-// Servicio para interactual con el Api Externo de TBX
-// maneja la obtencion de la lista de archivos y descarga de archivos csv 
 class ExternalApiService {
   constructor () {
     this.client = axios.create({
@@ -17,8 +14,6 @@ class ExternalApiService {
     })
   }
 
-  // Obtiene la lista de archivos disponibles desde el API externo
-
   async getFilesList () {
     try {
       const response = await this.client.get('/files')
@@ -28,8 +23,6 @@ class ExternalApiService {
       throw new Error('Failed to fetch files list from external API')
     }
   }
-
-  // Descarga el contenido de un archivo CSV especifico
 
   async downloadFile (fileName) {
     try {

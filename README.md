@@ -160,19 +160,6 @@ Response:
 
 ---
 
-
-## 💡 Key Features
-
-🔍 **Search**: Filter across all fields in real-time
-
-📂 **File Filter**: View data from specific CSV files
-
-✨ **Smart Validation**: Automatically filters invalid data
-
-🔢 **Natural Sorting**: test1, test2... test15, test18 (correct order)
-
----
-
 ## 🐛 Troubleshooting
 
 **Backend won't start?**

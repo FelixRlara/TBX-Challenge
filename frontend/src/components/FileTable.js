@@ -15,7 +15,6 @@ function FileTable ({ files }) {
     })
   })
 
-  // Ordenamiento natural
   const sortedLines = allLines.sort((a, b) => 
     a.fileName.localeCompare(b.fileName, undefined, { numeric: true, sensitivity: 'base' })
   )
